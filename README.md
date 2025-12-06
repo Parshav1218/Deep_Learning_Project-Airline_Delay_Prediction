@@ -55,9 +55,6 @@ This project builds a **Deep Learning model using LSTM + Embeddings** to predict
 1 → Delayed (> 15 minutes)
 0 → On‑time
 
-yaml
-Copy code
-
 ---
 
 ## 🔧 Tools & Technologies
@@ -89,29 +86,28 @@ Optimizer → Adam
 ```bash
 git clone https://github.com/<username>/<repo-name>.git
 cd <repo-name>
+
 2. Install Dependencies
 bash
 Copy code
 pip install -r requirements.txt
 3. Add Dataset
 Place:
-
-Copy code
-flights.csv  
-airlines.csv  
-airports.csv  
-inside /data/ folder.
+  flights.csv  
+  airlines.csv  
+  airports.csv  
+              inside /data/ folder.
 
 4. Train / Evaluate Model
 Run the notebook:
-
-Copy code
 notebooks/Airline_Delay_Training.ipynb
 📈 Model Performance
-Metric	Score
-Accuracy	~83–84%
-ROC‑AUC	~0.75
-F1‑Score	~0.27 (affected by class imbalance)
+| Metric   | Score                               |
+| -------- | ----------------------------------- |
+| Accuracy | ~83–84%                             |
+| ROC‑AUC  | ~0.75                               |
+| F1‑Score | ~0.27 (affected by class imbalance) |
+
 
 📉 Key Visual Outputs
 ✔ Training loss curve
@@ -123,23 +119,15 @@ F1‑Score	~0.27 (affected by class imbalance)
 
 📚 Documentation
 📄 Final Report → /docs/Final_Report.docx
-📊 PPT Slides → /docs/Presentation.pptx
-📑 Literature Survey → /docs/Literature_Survey.pdf
 
 🔮 Future Improvements
 Add weather + airport congestion data
-
 Try transformer or attention-based models
-
 Deploy model as real‑time API
-
 Improve class imbalance handling
 
 👥 Contributors
 Parshav Goyal
-
-Charu
-
+Charu Garg
 Vaibhavi Kumari
-
 vidisha
