@@ -129,7 +129,7 @@ Deploy model as real‑time API
 Improve class imbalance handling  
 
 ### 👥 Contributors
-Parshav Goyal(102215200)  
-Charu Garg(102215180)        
-Vaibhavi Kumari(102215214)  
-vidisha(102215211)        
+Parshav Goyal (102215200)  
+Charu Garg (102215180)        
+Vaibhavi Kumari (102215214)  
+Vidisha (102215211)        
