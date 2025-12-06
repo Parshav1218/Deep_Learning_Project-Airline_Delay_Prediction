@@ -115,8 +115,6 @@ notebooks/Airline_Delay_Training.ipynb
 ✔ Confusion matrix heatmap
 ✔ ROC curve
 
-(All stored inside /results/)
-
 📚 Documentation
 📄 Final Report → /docs/Final_Report.docx
 
