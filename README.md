@@ -20,30 +20,28 @@ This project builds a **Deep Learning model using LSTM + Embeddings** to predict
 
 ## 📂 Repository Structure
 
-├📂 Repository Structure
+├📂 Repository Structure    
 │
-├── 📁 data/
-│   ├── flights.csv
-│   ├── airlines.csv
-│   └── airports.csv
-│
-├── 📁 models/
-│   └── best_lstm_airline.pt
-│
-├── 📁 notebooks/
-│   └── Airline_Delay_Training.ipynb
-│
-├── 📁 results/
-│   ├── loss_curve.png
-│   ├── accuracy_curve.png
-│   ├── confusion_matrix.png
-│   └── roc_curve.png
-│
-├── 📁 docs/
-│   ├── Final_Report.docx
-│   ├── Presentation.pptx
-│   └── Literature_Survey.pdf
-│
+├── 📁 data/      
+│   ├── flights.csv        
+│   ├── airlines.csv        
+│   └── airports.csv        
+│                            
+├── 📁 models/        
+│   └── best_lstm_airline.pt        
+│                                  
+├── 📁 notebooks/        
+│   └── Airline_Delay_Training.ipynb        
+│                                          
+├── 📁 results/        
+│   ├── loss_curve.png      
+│   ├── accuracy_curve.png        
+│   ├── confusion_matrix.png        
+│   └── roc_curve.png    
+│                              
+├── 📁 docs/      
+│   └── Final_Report.docx     
+│                                    
 └── README.md
 
 ---
@@ -107,7 +105,7 @@ pip install -r requirements.txt
 ### 4. Train / Evaluate Model
 Run the notebook:
 notebooks/Airline_Delay_Training.ipynb
-📈 Model Performance
+### 📈 Model Performance
 | Metric   | Score                               |
 | -------- | ----------------------------------- |
 | Accuracy | ~83–84%                             |
@@ -115,23 +113,23 @@ notebooks/Airline_Delay_Training.ipynb
 | F1‑Score | ~0.27 (affected by class imbalance) |
 
 
-📉 Key Visual Outputs
-✔ Training loss curve
-✔ Validation accuracy curve
-✔ Confusion matrix heatmap
-✔ ROC curve
+### 📉 Key Visual Outputs
+✔ Training loss curve  
+✔ Validation accuracy curve  
+✔ Confusion matrix heatmap  
+✔ ROC curve  
 
-📚 Documentation
+### 📚 Documentation
 📄 Final Report → /docs/Final_Report.docx
 
-🔮 Future Improvements
-Add weather + airport congestion data
-Try transformer or attention-based models
-Deploy model as real‑time API
-Improve class imbalance handling
+### 🔮 Future Improvements
+Add weather + airport congestion data  
+Try transformer or attention-based models  
+Deploy model as real‑time API  
+Improve class imbalance handling  
 
-👥 Contributors
-Parshav Goyal
-Charu Garg
-Vaibhavi Kumari
-vidisha
+### 👥 Contributors
+Parshav Goyal(102215200)  
+Charu Garg(102215180)        
+Vaibhavi Kumari(102215214)  
+vidisha(102215211)        
