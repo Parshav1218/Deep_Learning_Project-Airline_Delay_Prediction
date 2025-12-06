@@ -91,22 +91,20 @@ Optimizer → Adam
 ## 🚀 How to Run
 
 ### 1. Clone the Repository
-```bash
+``bash
 git clone https://github.com/<username>/<repo-name>.git
 cd <repo-name>
-
-2. Install Dependencies
-bash
-Copy code
+``
+### 2. Install Dependencies
+``
 pip install -r requirements.txt
-3. Add Dataset
-Place:
+``
+### 3. Add Dataset
   flights.csv  
   airlines.csv  
-  airports.csv  
-              inside /data/ folder.
+  airports.csv 
 
-4. Train / Evaluate Model
+### 4. Train / Evaluate Model
 Run the notebook:
 notebooks/Airline_Delay_Training.ipynb
 📈 Model Performance
