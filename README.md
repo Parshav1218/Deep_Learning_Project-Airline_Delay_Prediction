@@ -1,3 +1,4 @@
+![Project Banner](banner.png)
 # ✈️ Airline Delay Prediction using Deep Learning (LSTM Classifier)
 
 ![Status](https://img.shields.io/badge/Project%20Status-Completed-brightgreen)
