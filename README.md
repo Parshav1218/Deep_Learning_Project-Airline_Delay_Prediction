@@ -20,7 +20,7 @@ This project builds a **Deep Learning model using LSTM + Embeddings** to predict
 
 ## 📂 Repository Structure
 
-├📂 Repository Structure    
+├📂 Airline_Delay_Presiction/                  
 │
 ├── 📁 data/      
 │   ├── flights.csv        
